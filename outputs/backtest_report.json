@@ -1,0 +1,92 @@
+{
+  "folds": [
+    {
+      "origin": "2026-02-10",
+      "period": "Ramadan start",
+      "rows": 13440,
+      "model_wape": 0.3635,
+      "model_bias": -0.0375,
+      "baseline_recent_weeks_wape": 0.4597,
+      "baseline_last_year_wape": 0.5441,
+      "p10_p90_coverage": 0.747
+    },
+    {
+      "origin": "2026-03-06",
+      "period": "Last 10 days of Ramadan + Eid",
+      "rows": 13440,
+      "model_wape": 0.3749,
+      "model_bias": -0.0266,
+      "baseline_recent_weeks_wape": 0.4601,
+      "baseline_last_year_wape": 0.6664,
+      "p10_p90_coverage": 0.749
+    },
+    {
+      "origin": "2026-06-02",
+      "period": "Normal period (June)",
+      "rows": 13440,
+      "model_wape": 0.3763,
+      "model_bias": 0.0019,
+      "baseline_recent_weeks_wape": 0.4555,
+      "baseline_last_year_wape": 0.6002,
+      "p10_p90_coverage": 0.76
+    }
+  ],
+  "by_category": {
+    "Beverages": {
+      "model_wape": 0.361,
+      "baseline_recent_weeks_wape": 0.491,
+      "baseline_last_year_wape": 0.644
+    },
+    "Dairy": {
+      "model_wape": 0.349,
+      "baseline_recent_weeks_wape": 0.398,
+      "baseline_last_year_wape": 0.516
+    },
+    "Dates & Sweets": {
+      "model_wape": 0.39,
+      "baseline_recent_weeks_wape": 0.583,
+      "baseline_last_year_wape": 0.725
+    },
+    "Electronics Accessories": {
+      "model_wape": 0.522,
+      "baseline_recent_weeks_wape": 0.656,
+      "baseline_last_year_wape": 0.895
+    },
+    "Fresh Produce": {
+      "model_wape": 0.348,
+      "baseline_recent_weeks_wape": 0.398,
+      "baseline_last_year_wape": 0.53
+    },
+    "Home & Summer": {
+      "model_wape": 0.552,
+      "baseline_recent_weeks_wape": 0.633,
+      "baseline_last_year_wape": 0.794
+    },
+    "Perfume & Gifts": {
+      "model_wape": 0.519,
+      "baseline_recent_weeks_wape": 0.617,
+      "baseline_last_year_wape": 0.827
+    },
+    "Personal Care": {
+      "model_wape": 0.408,
+      "baseline_recent_weeks_wape": 0.515,
+      "baseline_last_year_wape": 0.675
+    },
+    "Rice & Staples": {
+      "model_wape": 0.369,
+      "baseline_recent_weeks_wape": 0.448,
+      "baseline_last_year_wape": 0.634
+    },
+    "Stationery": {
+      "model_wape": 0.52,
+      "baseline_recent_weeks_wape": 0.595,
+      "baseline_last_year_wape": 0.74
+    }
+  },
+  "overall": {
+    "model_wape": 0.3711,
+    "baseline_recent_weeks_wape": 0.4586,
+    "baseline_last_year_wape": 0.6034,
+    "error_reduction_vs_best_baseline": 0.191
+  }
+}

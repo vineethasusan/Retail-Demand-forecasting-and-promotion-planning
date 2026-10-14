@@ -1,0 +1,24 @@
+{
+  "forecast_wape": 0.3711,
+  "best_baseline_wape": 0.4586,
+  "error_reduction": 0.191,
+  "fill_rate_current": 0.8291,
+  "fill_rate_forecast": 0.9074,
+  "lost_margin_current_aed": 787213,
+  "lost_margin_forecast_aed": 282864,
+  "spoilage_current_aed": 112998,
+  "spoilage_forecast_aed": 86234,
+  "cost_saving_per_28_days_aed": 176226,
+  "annualised_saving_aed": 2297233,
+  "promo_categories_losing_margin": [
+    "Personal Care",
+    "Stationery",
+    "Home & Summer",
+    "Dates & Sweets",
+    "Beverages",
+    "Fresh Produce",
+    "Rice & Staples",
+    "Dairy"
+  ],
+  "runtime_s": 118
+}

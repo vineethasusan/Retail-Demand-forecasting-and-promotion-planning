@@ -85,8 +85,8 @@ flowchart LR
 ## Quick start
 
 ```bash
-git clone https://github.com/vineethasusan/uae-retail-demand-forecasting.git
-cd uae-retail-demand-forecasting
+git clone https://github.com/vineethasusan/Retail-Demand-forecasting-and-promotion-planning.git
+cd Retail-Demand-forecasting-and-promotion-planning
 python -m venv .venv && source .venv/bin/activate
 make install
 make pipeline     # data -> backtest -> models -> replenishment -> promotions -> outputs/report.md
@@ -107,7 +107,7 @@ Or with Docker: `make docker`.
 ## Project structure
 
 ```
-uae-retail-demand-forecasting/
+Retail-Demand-forecasting-and-promotion-planning/
 ├── src/retailfc/
 │   ├── calendar.py    # UAE event calendar
 │   ├── data.py        # synthetic sales generator
